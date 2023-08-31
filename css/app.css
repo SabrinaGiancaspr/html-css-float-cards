@@ -2,41 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+		font-family: 'Fredoka', sans-serif;
 }
-p {
-	margin-left: 200px;
-}
+
+/* titolo */
+
 .container {
     max-width: 100%;
     min-height: 150px;
     border: 2px solid black;
-    margin: 0 auto;
+    margin-left: 40px;
+		margin-right: 40px;
 }
 
 .title {
     text-align: center;
     padding: 60px;
+		color: #E53170;
+		font-size: 45px;
 }
+
+/* pragrafo */
+
+p {
+	margin: 0 250px 0 250px;
+	text-align: center;
+}
+
+/* cards  */
 
 .cards-container {
     min-height: 450px;
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 1200px;
+	  margin: 0 auto;
 		border: 1px solid black;
-    
 }
 
 .cards {
-    min-height: 110px;
-    width: calc((100% - 800px) / 3);
+    min-height: 100px;
+    width: calc((100% - 120px) / 3);
     border: 1px solid black;
-		margin-top: 60px;
-		margin-right: 40px;
+		margin: 0 20px 50px 20px;
 		float: left;
 }
 
+.img {
+	width: 107px;
+	height: 98px;
+	background-color: red;
+}
 .clearfix.{
 	display: table;
 	content: '';
 	clear: both;
+}
+
+.footer-container{
+	min-height: 450px;
+	max-width: 100%;
+	border: 1px solid black;
 }
