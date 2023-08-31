@@ -1,64 +1,85 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-		font-family: 'Fredoka', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family: 'Fredoka', sans-serif;
 }
 
 /* titolo */
-
 .container {
-    max-width: 100%;
-    min-height: 150px;
-    border: 2px solid black;
-    margin-left: 40px;
-		margin-right: 40px;
+  max-width: 100%;
+  min-height: 150px;
+  margin-left: 40px;
+	margin-right: 40px;
 }
 
 .title {
-    text-align: center;
-    padding: 60px;
-		color: #E53170;
-		font-size: 45px;
+  text-align: center;
+  padding: 60px;
+	color: #E53170;
+	font-size: 45px;
 }
 
 /* pragrafo */
-
-p {
+p:first-child {
 	margin: 0 250px 0 250px;
 	text-align: center;
+	font-size: 20px;
 }
 
 /* cards  */
-
 .cards-container {
-    min-height: 450px;
-    max-width: 1200px;
-	  margin: 0 auto;
-		border: 1px solid black;
+  min-height: 450px;
+  max-width: 1200px;
+	margin: 0 auto;
 }
 
 .cards {
-    min-height: 100px;
-    width: calc((100% - 120px) / 3);
-    border: 1px solid black;
-		margin: 0 20px 50px 20px;
-		float: left;
+  min-height: 100px;
+  width: calc((100% - 120px) / 3);
+  border: 1px solid black;
+	margin: 0 20px 50px 20px;
+	float: left;
+	background-color: black;
+	box-shadow: 5px 5px 5px #b6b3b3;
 }
 
+/* immagini  */
 .img {
 	width: 107px;
 	height: 98px;
-	background-color: red;
+	float: left;
+	margin-right: 15px;
+	background-color: black;
+	
 }
-.clearfix.{
+
+/* font  */
+.white-font {
+	color: white;
+	padding: 4px;
+}
+
+a {
+	color: #57B1DB;
+	text-decoration: none;
+}
+
+/* paragrafo finale */
+.banner-container {
+	min-height: 180px;
+	max-width: 100%;
+	background-color: #222222;
+}
+
+.font-banner {
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+}
+
+.clearfix {
 	display: table;
 	content: '';
 	clear: both;
-}
-
-.footer-container{
-	min-height: 450px;
-	max-width: 100%;
-	border: 1px solid black;
 }
