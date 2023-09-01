@@ -37,18 +37,19 @@ p:first-child {
   min-height: 100px;
   width: calc((100% - 120px) / 3);
   border: 1px solid black;
-	margin: 0 20px 50px 20px;
-	float: left;
-	background-color: black;
-	box-shadow: 5px 5px 5px #b6b3b3;
+  margin: 0 20px 50px 20px;
+  float: left;
+  background-color: black;
+  box-shadow: 5px 5px 5px #b6b3b3;
 }
 
 /* immagini  */
 .img {
-	width: 107px;
+	width: 100px;
 	float: left;
 	margin-right: 15px;
 	background-color: black;
+	display: block;
 }
 
 /* font  */
